@@ -65,7 +65,7 @@ function createSquares(input){
 		element.classList.add('square');
 		element.style.width = sizeOfSquare+'px';
 		element.style.height = sizeOfSquare+'px';
-		element.addEventListener('click', ()=>{
+		element.addEventListener('mouseenter', ()=>{
 			putColor(element);
 		});
 		gridContainer.appendChild(element);
