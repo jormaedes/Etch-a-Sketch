@@ -11,7 +11,6 @@ btnReset.addEventListener('click', ()=>{
 	const squares = [...document.querySelectorAll('.square')];
 	for(const square of squares) {
 		square.style.background = '';
-		defaultColor = 1;
 	}
 });
 
