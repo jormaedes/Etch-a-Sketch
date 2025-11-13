@@ -32,15 +32,12 @@ button:hover {
 }
 
 #grid-container {
-	width: 500px;
 	display: flex;
 	flex-flow: row wrap;
 	outline: 1px solid #222222;
 }
 
 .square{
-	width: 100px;
-	height: 100px;
 	border: 1px solid #222222;
 }
 
