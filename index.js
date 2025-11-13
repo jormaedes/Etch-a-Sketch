@@ -4,7 +4,6 @@ const gridContainer = document.querySelector('#grid-container');
 const btnRainbow = document.querySelector('#rainbow');
 const btnDefault = document.querySelector('#default');
 const SIZEGRID = 500;
-let numberOfSquares = '';
 let defaultColor = 1;
 
 btnReset.addEventListener('click', ()=>{
@@ -81,7 +80,7 @@ function render(input){
 function resize() {
 	let input = '';
 	while(!parserInput(input))
-		input = prompt('Insira um numero inteiro de 1 a 100');
+		input = prompt('Enter an integer from 1 to 100.');
 	render(input);
 }
 
