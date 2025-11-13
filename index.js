@@ -2,6 +2,7 @@ const btnReset = document.querySelector('#reset-btn');
 const btnChangeGridSize = document.querySelector('#change-grid-size');
 const gridContainer = document.querySelector('#grid-container');
 const btnRainbow = document.querySelector('#rainbow');
+const btnDefault = document.querySelector('#default');
 const SIZEGRID = 500;
 let numberOfSquares = '';
 let defaultColor = 1;
@@ -16,6 +17,10 @@ btnReset.addEventListener('click', ()=>{
 
 btnRainbow.addEventListener('click', ()=>{
 	defaultColor = 2;
+});
+
+btnDefault.addEventListener('click', ()=>{
+	defaultColor = 1;
 });
 
 
